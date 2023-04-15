@@ -42,3 +42,11 @@ class Board:
         y = y * size + 3
         pg.draw.line(sc, "yellow", (x, y), (x + size - 3, y + size - 3), 3)
         pg.draw.line(sc, "yellow", (x + size - 3, y - 3), (x, y + size - 3), 3)
+
+    def clear(self):
+        self.board = [
+            [0, 0, 0],
+            [0, 0, 0],
+            [0, 0, 0]
+        ]
+

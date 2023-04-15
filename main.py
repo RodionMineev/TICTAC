@@ -18,5 +18,4 @@ while True:
 
     keys = pg.key.get_pressed()
     if keys[pg.K_ESCAPE]:
-        pg.quit()
-        exit()
+        board.clear()
